@@ -1,0 +1,60 @@
+
+body,head{
+  background:#0a0a0a;
+  color:white;
+ width: 100vw;
+ height:100vh;
+ margin: 0;
+ left: 0px;
+ top: 0px;
+ background-size: 100%;
+}
+
+.button_class{
+  cursor:pointer;
+  background: none;
+  border: none;
+  font-style: Roboto,normal;
+  font-size: 24px;
+  width: auto;
+  color: white;
+  margin-top: 20px;
+  position: relative;
+  float: right;
+}
+
+.button_class hover{
+  background-color: white;
+  color: black;
+}
+header h1{
+   position: absolute;
+   top: 0px;
+   left: 32px;
+   font-family: Roboto,sheriff;
+   font-size:26px;
+   cursor: pointer;
+}
+header{
+  border-bottom: 2px groove;
+}
+.search_div{
+    position: relative;
+    width: 100vw;
+    height: 400px;
+  opacity:0.45;
+  background-image: url('../webapp/image_background.jpg');
+  background-position:center;
+  background-size:cover;
+  margin-top: 75px;
+  background-repeat:no-repeat;
+}
+.search_div p{
+    position: absolute;
+    color: white;
+    margin-left: calc(100%-30);
+    left: 198px;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 21px;
+}
