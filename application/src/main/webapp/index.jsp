@@ -19,8 +19,20 @@
     </header>
 <div class="search_div">
   <p>Want to be the real king, find your castle from pgbro.com</p>
-  <input id="search_text" type="text" placeholder="search for a pg,locality" >
+  <h3>Tired of desperate paying guests in chennai,that supplied you insecurities.</h3>
+  <br>
+  <h3>Featuring quality food with no compromise in taste</h3>
+  <div class="search_text_div">
+  <input id="search_text" type="text" placeholder="   search for a pg,locality" >
+  <a class="clear_button">x</a>
 </input>
+<a class="select_gender_label">Gender</a>
+<select class="gender_select" name="">
+  <option value="geared">Geared</option>
+         <option value="gearless">Gearless</option>
+</select>
+ <button class="final_button"type="button" name="button">Search</button>
+  </div>
 </div>
   </body>
 </html>

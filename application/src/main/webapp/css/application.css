@@ -43,7 +43,7 @@ header{
     width: 100vw;
     height: 400px;
   opacity:0.45;
-  background-image: url('../resources/image_background.jpg');
+  background-image: url('image_background.jpg');
   background-position:center;
   background-size:cover;
   margin-top: 75px;
@@ -57,4 +57,61 @@ header{
     margin-top: 25px;
     font-family: Roboto;
     font-size: 21px;
+}
+#search_text{
+  width: 350px;
+  height: 35px;
+  position: absolute;
+      border-radius: 6px;
+}
+.search_text_div{
+      position: absolute;
+      left: 108px;
+      top: 290px;
+}
+.clear_button {
+    position: relative;
+    cursor: pointer;
+    left: 334px;
+    top: 13px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.gender_select{
+    position: absolute;
+    font-family:Roboto;
+    width: 100px;
+    left: 365px;
+    top: 23px;
+}
+.select_gender_label{
+    position: absolute;
+    font-weight: bolder;
+    color: black;
+    left: 385px;
+    top: -3px;
+    font-size: 18px;
+    font-family: Roboto;
+}
+.final_button{
+  position: absolute;
+  left: 475px;
+  top: 5px;
+  background: blue;
+  color: white;
+  width: 75px;
+  height: 36px;
+  border-radius: 2px;
+border: none;
+cursor: pointer;
+}
+.final_button:hover{
+  background: #BF4040;
+}
+@media screen and (max-width:320px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+  .button_class{
+    display:none;
+  }
 }
